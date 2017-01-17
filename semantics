@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Div, Span, Heading and some Semantic Elements</title>
+</head>
+<h1>Experiment No. 2 on Some semantic elements used in HTML 5 and their functions. </h1>
+    <h2>Web Programming</h2>
+<body>
+  <header>
+    With HTML4, developers used their own id/class names to style elements: header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, topnav, etc.
+This made it impossible for search engines to identify the correct web page content.
+With the new HTML5 elements (&lt;header&gt; &lt;footer&gt; &lt;nav&gt; &lt;section&gt; &lt;article&gt;), this will become easier.
+A Semantic Web Allows data to be shared and reused across applications, enterprises, and communities.
+    <nav>nav (short for navigation) element -The &lt;nav&gt;element defines a set of navigation links.</nav>
+  </header>
+  <section>
+    A &lt;section&gt; is a thematic grouping of content, typically with a heading.
+    <article>ARTICLE TAG</article>
+    <article>The &lt;article&gt; element specifies independent, self-contained content.</article>
+    <article>An article should make sense on its own, and it should be possible to read it independently from the rest of the web site.</article>
+  </section>
+    <div>The &lt;div&gt; tag defines a division or a section in an HTML document.
+The &lt;div&gt; tag is used to group block-elements to format them with CSS.</div>
+  <aside>
+    The &lt;aside&gt; element defines some content aside from the content it is placed in (like a sidebar).
+    The aside content should be related to the surrounding content.
+  </aside>
+
+ <footer>
+NMIMS Copyright &copy; 2015
+</footer>
+</body>
+</html>
