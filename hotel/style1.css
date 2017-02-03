@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    color:#200AEE;
+}
+
+body{
+	background-color: lightblue;
+}
+
+h2{
+	font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color:#020202;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    color:#020202;
+    background-color: lightgrey;
+    width: 1000px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: auto;
+}
+
+h3{
+	color: rebeccapurple;
+	font-size: 30px;
+	font-style: italic;
+}
