@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 5</title>
+</head>
+<body>
+<p>MONIT SHAH</p>
+<p>A048</p>
+<script type="text/javascript">
+	var array1 = ['5','26','20','78','10','55','111'];
+	var array2 = ['111','20','4','6',];
+	console.log(array1);
+	console.log(array2);
+function arr_diff (a1, a2) {
+
+    var a = [], diff = [];
+
+    for (var i = 0; i < a1.length; i++) {
+        a[a1[i]] = true;
+    }
+
+    for (var i = 0; i < a2.length; i++) {
+        if (a[a2[i]]) {
+            delete a[a2[i]];
+        } else {
+            a[a2[i]] = true;
+        }
+    }
+
+    for (var k in a) {
+        diff.push(k);
+    }
+
+    return diff;
+};
+
+
+array3 = arr_diff(array1,array2);
+var max = array3.reduce(function(a, b) {
+    return Math.max(a, b);
+});
+
+console.log(max);
+
+</script>
+</body>
+</html>
